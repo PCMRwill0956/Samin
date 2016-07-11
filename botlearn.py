@@ -34,7 +34,7 @@ def run_bot():
         isMatch = any(string in comment_text for string in words_to_match)
         
         if comment.id not in cache and isMatch:
-            comment.reply("{} is a great game! [Here's some more recommended games!](https://gfycat.com/SlipperyUnconsciousIbisbill)\n\n -----  \n\n  This action was done automatically, if you have any questions or concerns, contact the creator: /u/amanat361.".format(random.choice(steam_games)))     
+            comment.reply("{} is a great game! [Here's some more recommended games!](http://store.steampowered.com/curator/4771848-r-pcmasterrace-Group/)\n\n -----  \n\n  This action was done automatically, if you have any questions or concerns, contact the creator: /u/amanat361.".format(random.choice(steam_games)))     
             
             print("Mission Accomplished")
         
